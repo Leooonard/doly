@@ -1,5 +1,8 @@
 module.exports = {
-	hello: function(){
+	get hello() {
 		return require('./libs/hello');
+	},
+	get LoadMoreRefreshView() {
+		return require('./libs/LoadMoreRefreshView');
 	}
-}
+};
