@@ -12,7 +12,7 @@
  *
  *  func(){
  *  	//...deal with the text
- *		return <LoadMorerefreshView text={your text} />
+ *		return <LoadMorerefreshView texts={your text} />
  *  }
  */
 
@@ -37,7 +37,7 @@ export default class LoadMorerefreshView extends Component {
 
 		return (
 			<View style={styles.MoreView}>
-				<Text allowFontScaling='false' style = {styles.MoreText}>
+				<Text allowFontScaling=false style={styles.MoreText}>
 					{text}
 				</Text>
 			</View>);
